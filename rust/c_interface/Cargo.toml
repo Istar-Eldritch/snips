@@ -1,0 +1,10 @@
+[package]
+name = "c_interface"
+version = "0.1.0"
+authors = ["Ruben Paz <me@ruben.io>"]
+
+[dependencies]
+
+[lib]
+name = "c_interface"
+crate-type = ["dylib"]
